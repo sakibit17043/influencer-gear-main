@@ -46,4 +46,10 @@ body{
 .header-image img{
     width: 80%;
     margin-left: 50px;
+    transition: transform 2s ease-in-out;
+}
+.header-image img:hover{
+    transform: scale(0.5) rotate(360deg);
+    
+
 }
