@@ -19,6 +19,7 @@ body{
  ---------------- */
 .top-header{
     margin-top:50px;
+    font-size: 30px;
 }
 .header-part{
      display: flex;
@@ -30,6 +31,8 @@ body{
 }
 .header-title{
     font-weight: 900;
+    font-size: 50px;
+    
 }
 .header-button{
     width: 180px;
@@ -58,8 +61,15 @@ body{
 /*-------------
  main style  
  ---------------*/
+ main{
+     margin-top: 150px;
+     margin-left: 70px;
+ }
  .main-title{
      text-align: center;
+     margin-right: 20px;
+     margin-bottom: 50px;
+     font-size: 30px;
  }
  .layout{
      display: grid;
@@ -77,4 +87,11 @@ body{
  }
  .fa-star{
      color: goldenrod;
+ }
+ .link{
+     display: flex;
+     justify-content: end;
+     color: #E02C6D;
+     margin-top: 50px;
+     margin-right: 50px;
  }
