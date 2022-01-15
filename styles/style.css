@@ -155,7 +155,7 @@ small{
             padding:0;
         }
         .top-header{
-            margin-left: 20px;
+            text-align: center;
         }
         /*----------------
          header style
@@ -246,3 +246,56 @@ form{
 /*----------
  responsive for tab
  -------------------*/
+ @media only screen and (min-width:577px) and (max-width:768px) {
+    .container{
+        padding:0;
+    }
+    .top-header{
+        text-align: center;
+    }
+    .header-part{
+     display: none;
+    }
+          /*----------------
+       main style 
+       --------------------- */
+       main{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .main-title{
+        
+        margin-right: 0px;
+        margin-bottom: 0px;
+        font-size: 30px;
+    }
+    .layout{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 3em;
+    }
+   
+   .item-image img{
+    width:100%;
+   }
+    .link{
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    /*-----------
+     special-section 
+     ---------------*/
+     .form{
+         width: 70%;
+         margin: 0 5%;
+     }
+     .welcome-note{
+         margin-left: 5%;
+     }
+     .welcome-note p{
+         width: 80%;
+     }
+    
+
+
+ }
