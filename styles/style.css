@@ -253,9 +253,22 @@ form{
     .top-header{
         text-align: center;
     }
-    .header-part{
-     display: none;
+    /*-------
+     header style 
+     ------------- */
+     .header-info{
+        width:50%;
+        margin-top: 0;
     }
+    .header-title{
+        font-size: 25px;
+        }
+        .header-image{
+            width: 40%;
+        }
+        .header-image img{
+            width:100%;
+        } 
           /*----------------
        main style 
        --------------------- */
