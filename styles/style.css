@@ -5,6 +5,8 @@ font awesome
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Code Pro', monospace;
+    
+
 }
 /* ---------
     commonstyle
@@ -53,3 +55,26 @@ body{
     
 
 }
+/*-------------
+ main style  
+ ---------------*/
+ .main-title{
+     text-align: center;
+ }
+ .layout{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-row-gap: 3em;
+ }
+ .item-details{
+    width: 329px;
+    height: 476px;
+    border:1px solid whitesmoke;
+    border-radius: 10px;
+    
+    padding: 20px;
+    background-color: white;
+ }
+ .fa-star{
+     color: goldenrod;
+ }
